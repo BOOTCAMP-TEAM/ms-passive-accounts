@@ -3,6 +3,8 @@ package com.bootcamp.passiveaccounts.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import com.bootcamp.passiveaccounts.bean.Audit;
+
 import lombok.Data;
 
 @Data

@@ -9,9 +9,9 @@ public interface TypePassiveProductService {
 
 	public Flux<TypePassiveProduct> findAll();
 	
-	//public Mono<TypePassiveProduct> findById(String id);
+	public Mono<TypePassiveProduct> findById(String id);
 	
 	public Mono<TypePassiveProduct> save(TypePassiveProduct typePassiveProduct);
 	
-	//public Mono<TypePassiveProduct> delete(TypePassiveProduct typePassiveProduct);
+	public Mono<Void> delete(TypePassiveProduct typePassiveProduct);
 }

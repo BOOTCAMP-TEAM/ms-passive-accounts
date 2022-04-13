@@ -26,5 +26,15 @@ public class TypePassiveProductServiceImpl implements TypePassiveProductService{
 		return repository.save(typePassiveProduct);
 	}
 
+	@Override
+	public Mono<TypePassiveProduct> findById(String id) {
+		return repository.findById(id);
+	}
+
+	@Override
+	public Mono<Void> delete(TypePassiveProduct typePassiveProduct) {
+		return repository.delete(typePassiveProduct);
+	}
+
 
 }

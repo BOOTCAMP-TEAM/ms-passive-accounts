@@ -1,13 +1,10 @@
-package com.bootcamp.passiveaccounts.entity;
+package com.bootcamp.passiveaccounts.bean;
 
 import java.util.Date;
-
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
 
 @Data
-@Document
 public class Audit {
 	
 	private String registrationStatus;
